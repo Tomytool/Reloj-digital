@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(wallpaperbetter.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor{
+width: 150px;
+height: 200px;
+background-color: rgba(0, 0, 255, 0.5);
+margin-left: 40px;
+text-align: center;
+border-radius: 10px;
+
+}
+.contenedor > div {
+  height: 86%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor > h2{
+  height: 14%;
+  width: 100%;
+  background-color: aqua;
+}
+
+.time {
+color: white;
+font-size: 85px;
+font-weight: bold;
+}
